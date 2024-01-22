@@ -1,0 +1,42 @@
+.junior{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),
+        url("images/junior-hockey.png");
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-radius: 12px;
+}
+.teenager{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.50)0%, rgba(19, 19, 24, 0.50)100%),
+        url("images/teen-hockey.png");
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-radius: 12px;
+}
+.professional{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100% ),
+        url("images/banner-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-radius: 12px;
+}
+.product-rating-section{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+.product-rating-section p{
+    width:25px;
+    margin-right: 8px;
+    text-align: left;
+    flex-grow: unset;
+}
+.card-hover:hover{
+    scale: calc(1.05);
+    cursor: pointer;
+    transition: 400ms;
+}

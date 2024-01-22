@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="png" href="images/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Hockey's</title>
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="mx-auto">
+    <header>
+
+    </header>
+    <main class="m-5 flex flex-col items-center">
+        <!-- banner  -->
+        <section class="">
+            <div class="container">
+                <div class="carousel w-full mx-auto">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="images/banner.png" class="w-full rounded-xl" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle  bg-black text-white border-0">❮</a>
+                            <a href="#slide2" class="btn btn-circle  bg-black text-white border-0">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="images/banner-2.jpg" class="w-full rounded-xl" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle  bg-black text-white border-0">❮</a>
+                            <a href="#slide3" class="btn btn-circle  bg-black text-white border-0">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="images/banner-3.jpg" class="w-full rounded-xl" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle  bg-black text-white border-0">❮</a>
+                            <a href="#slide1" class="btn btn-circle  bg-black text-white border-0">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-black mt-4 rounded-xl mb-10 container lg:max-w-screen-sm lg:mt-[-170px] lg:ml-[30vw] z-30 relative xl:ml-[40vw] 2xl:ml-[50vw]">
+                <h1 class="text-white font-extrabold p-4">Meet all the heroes from the field</h1>
+                <p class="text-[#ffffff99] p-4 -mt-5 font-medium ">Our program goes beyond skills development, fostering
+                    a community where passion for the game thrives. Join us and be part of a journey where every player
+                    becomes a hero in their own right.</p>
+            </div>
+        </section>
+        <div class="container divider"></div>
+        <!-- progress bar -->
+        <section class="text-center container">
+            <h3 class="text-[22px] font-extrabold">Professional Hockeys Club</h3>
+            <p class="text-[#13131899] p-4 font-medium">Step onto the ice and witness the epitome of hockey excellence
+                at our training institution. Immerse
+                yourself in a world where aspiring players meet their heroes from the field, gaining invaluable insights
+                and inspiration.</p>
+            <div class="divider"></div>
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-4 lg:gap-8">
+                <div>
+                    <div class="radial-progress rotate-[130deg] text-[#FF4240]"
+                        style="--value:87; --size:7.5rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="-rotate-[130deg] text-black font-extrabold text-2xl">87%</span></div>
+                    <h1 class="font-semibold text-xl mb-4 mt-6">Prayer Facility</h1>
+                    <p class="text-base">Experience serenity in our state-of-the-art prayer facility, where tranquility
+                        meets modern comfort.
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress rotate-[105deg] text-[#49D293]"
+                        style="--value:95; --size:7.5rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="-rotate-[105deg] text-black font-extrabold text-2xl">95%</span></div>
+                    <h1 class="font-semibold text-xl mb-4 mt-6">Experienced Coach</h1>
+                    <p class="text-base">Unlock your full potential with our team of highly experienced coaches
+                        dedicated to elevating your game.
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress rotate-[121deg] text-[#FFB546]"
+                        style="--value:90; --size:7.5rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="-rotate-[121deg] text-black font-extrabold text-2xl">90%</span></div>
+                    <h1 class="font-semibold text-xl mb-4 mt-6">Senior Player</h1>
+                    <p class="text-base">Embrace the pinnacle of hockey excellence alongside our distinguished team,
+                        where seasoned senior players thrive.
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress rotate-[155deg] text-[#4C8DF1]"
+                        style="--value:80; --size:7.5rem; --thickness: 0.8rem;" role="progressbar"><span
+                            class="-rotate-[155deg] text-black font-extrabold text-2xl">80%</span></div>
+                    <h1 class="font-semibold text-xl mb-4 mt-6">Training Ground</h1>
+                    <p class="text-base">Immerse yourself in a cutting-edge training ground meticulously crafted for
+                        hockey excellence.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </section>
+        <!-- Program  -->
+        <section class="text-center container">
+            <h3 class="text-[22px] font-extrabold">Program Section</h3>
+            <p class="text-[#13131899] p-4 font-medium lg:w-1/2 mx-auto">Dive into our comprehensive program section,
+                meticulously designed to nurture every aspect of a player's journey. From skill development to strategic
+                game play, our structured programs cater to all levels of expertise.</p>
+            <div class="divider"></div>
+            <!-- card item  -->
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+                <div class="card w-auto card-hover rounded-3xl shadow-xl text-left">
+                    <div class="card-body p-6 junior">
+                        <h2 class="card-title text-white md:mt-14 lg:mt-24">Junior Program</h2>
+                        <p class="text-white pr-4">Embark on a thrilling journey with our Junior Program, where young
+                            talents discover the excitement and fundamentals of hockey. Our structured curriculum, led
+                            by expert coaches, focuses on skill development, teamwork, and fostering a love for the
+                            game. </p>
+                        <div class="card-actions justify-start">
+                            <button class="rounded-lg py-2 px-4 text-white font-bold text-lg bg-[#FF4240]">Register
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-auto card-hover rounded-3xl shadow-xl text-left">
+                    <div class="card-body p-6 teenager">
+                        <h2 class="card-title text-white md:mt-14 lg:mt-24">Teenager Program</h2>
+                        <p class="text-white pr-4">Embark on a thrilling journey with our Junior Program, where young
+                            talents discover the excitement and fundamentals of hockey. Our structured curriculum, led
+                            by expert coaches, focuses on skill development, teamwork, and fostering a love for the
+                            game. </p>
+                        <div class="card-actions justify-start">
+                            <button class="rounded-lg py-2 px-4 text-white font-bold text-lg bg-[#FF4240]">Register
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-auto card-hover rounded-3xl shadow-xl text-left md:col-span-2 lg:col-span-2">
+                    <div class="card-body p-6 professional">
+                        <h2 class="card-title text-white md:mt-28  lg:col-span-2 lg:mt-52">Professional Program</h2>
+                        <p class="text-white pr-4">Embark on a thrilling journey with our Junior Program, where young
+                            talents discover the excitement and fundamentals of hockey. Our structured curriculum, led
+                            by expert coaches, focuses on skill development, teamwork, and fostering a love for the
+                            game. </p>
+                        <div class="card-actions justify-start">
+                            <button class="rounded-lg py-2 px-4 text-white font-bold text-lg bg-[#FF4240]">Register
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- products section  -->
+        <section>
+            <div class="container text-center">
+                <h3 class="text-[22px] font-extrabold">Program Section</h3>
+                <p class="text-[#13131899] p-4 font-medium lg:w-1/2 mx-auto">
+                    Dive into our comprehensive program section, meticulously designed to nurture every aspect of a
+                    player's journey. From skill development
+                    to strategic game play, our structured programs cater to all levels of expertise.
+                </p>
+                <div class="divider"></div>
+                <!-- products card  -->
+                <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+                    <div class="card w-auto card-hover rounded-3xl bg-base-100 shadow-2xl lg:flex lg:flex-row">
+                        <img src="images/jacket-sm.png" alt="Jacket" class=" md:hidden lg:hidden" />
+                        <img src="images/jacket.png" alt="Jacket" class="hidden sm:hidden md:block lg:block lg:m-6" />
+                        <div class="card-body">
+                            <div class="product-rating-section">
+                                <i class='bx bxs-star text-orange-400 text-2xl'></i>
+                                <p>5.0</p>
+                                <img src="images/eye.png" alt="">
+                                <p>20</p>
+                                <i class='bx bx-heart text-2xl'></i>
+                                <p>200</p>
+                            </div>
+                            <h2 class="card-title font-extrabold text-xl">World Cup Jacket</h2>
+                            <p class="text-base font-medium text-[#13131899] text-left">If a dog chews shoes whose shoes
+                                does he choose?</p>
+                            <p class="text-lg font-extrabold text-[#ff4240] text-left">Price - $22.00</p>
+                            <div class="flex gap-2 items-center">
+                                <i class=' bx bx-cart  text-2xl '></i>
+                                <p class="font-medium text-[#13131875] text-left"> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-auto card-hover rounded-3xl bg-base-100 shadow-2xl lg:flex lg:flex-row">
+                        <img src="images/football-green-sm.png" alt="football" class=" md:hidden lg:hidden" />
+                        <img src="images/football-green.png" alt="football" class="hidden sm:hidden md:block lg:block lg:m-6" />
+                        <div class="card-body">
+                            <div class="product-rating-section">
+                                <i class='bx bxs-star text-orange-400 text-2xl'></i>
+                                <p>5.0</p>
+                                <img src="images/eye.png" alt="">
+                                <p>20</p>
+                                <i class='bx bx-heart text-2xl'></i>
+                                <p>200</p>
+                            </div>
+                            <h2 class="card-title font-extrabold text-xl">World Cup Football</h2>
+                            <p class="text-base font-medium text-[#13131899] text-left">If a dog chews shoes whose shoes
+                                does he choose?</p>
+                            <p class="text-lg font-extrabold text-[#ff4240] text-left">Price - $22.00</p>
+                            <div class="flex gap-2 items-center">
+                                <i class=' bx bx-cart  text-2xl '></i>
+                                <p class="font-medium text-[#13131875] text-left"> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-auto card-hover rounded-3xl bg-base-100 shadow-2xl lg:flex lg:flex-row">
+                        <img src="images/cap-sm.png" alt="cap" class=" md:hidden lg:hidden" />
+                        <img src="images/cap.png" alt="cap" class="hidden sm:hidden md:block lg:block lg:m-6" />
+                        <div class="card-body">
+                            <div class="product-rating-section">
+                                <i class='bx bxs-star text-orange-400 text-2xl'></i>
+                                <p>5.0</p>
+                                <img src="images/eye.png" alt="">
+                                <p>20</p>
+                                <i class='bx bx-heart text-2xl'></i>
+                                <p>200</p>
+                            </div>
+                            <h2 class="card-title font-extrabold text-xl">Hockey Cap</h2>
+                            <p class="text-base font-medium text-[#13131899] text-left">If a dog chews shoes whose shoes
+                                does he choose?</p>
+                            <p class="text-lg font-extrabold text-[#ff4240] text-left">Price - $22.00</p>
+                            <div class="flex gap-2 items-center">
+                                <i class=' bx bx-cart  text-2xl '></i>
+                                <p class="font-medium text-[#13131875] text-left"> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-auto card-hover rounded-3xl bg-base-100 shadow-2xl lg:flex lg:flex-row">
+                        <img src="images/t-shirt-sm.png" alt="t-shirt" class=" md:hidden lg:hidden" />
+                        <img src="images/t-shirt.png" alt="t-shirt" class="hidden sm:hidden md:block lg:block lg:m-6" />
+                        <div class="card-body">
+                            <div class="product-rating-section">
+                                <i class='bx bxs-star text-orange-400 text-2xl'></i>
+                                <p>5.0</p>
+                                <img src="images/eye.png" alt="">
+                                <p>20</p>
+                                <i class='bx bx-heart text-2xl'></i>
+                                <p>200</p>
+                            </div>
+                            <h2 class="card-title font-extrabold text-xl">World Cup T-shirt</h2>
+                            <p class="text-base font-medium text-[#13131899] text-left">If a dog chews shoes whose shoes
+                                does he choose?</p>
+                            <p class="text-lg font-extrabold text-[#ff4240] text-left">Price - $22.00</p>
+                            <div class="flex gap-2 items-center">
+                                <i class=' bx bx-cart  text-2xl '></i>
+                                <p class="font-medium text-[#13131875] text-left"> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-auto card-hover rounded-3xl bg-base-100 shadow-2xl lg:flex lg:flex-row">
+                        <img src="images/helmet-sm.png" alt="Helmet" class=" md:hidden lg:hidden" />
+                        <img src="images/helmet.png" alt="Helmet" class="hidden sm:hidden md:block lg:block lg:m-6" />
+                        <div class="card-body">
+                            <div class="product-rating-section">
+                                <i class='bx bxs-star text-orange-400 text-2xl'></i>
+                                <p>5.0</p>
+                                <img src="images/eye.png" alt="">
+                                <p>20</p>
+                                <i class='bx bx-heart text-2xl'></i>
+                                <p>200</p>
+                            </div>
+                            <h2 class="card-title font-extrabold text-xl">Hockey Helmet</h2>
+                            <p class="text-base font-medium text-[#13131899] text-left">If a dog chews shoes whose shoes
+                                does he choose?</p>
+                            <p class="text-lg font-extrabold text-[#ff4240] text-left">Price - $22.00</p>
+                            <div class="flex gap-2 items-center">
+                                <i class=' bx bx-cart  text-2xl '></i>
+                                <p class="font-medium text-[#13131875] text-left"> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-auto card-hover rounded-3xl bg-base-100 shadow-2xl lg:flex lg:flex-row">
+                        <img src="images/football-white-sm.png" alt="football" class=" md:hidden lg:hidden" />
+                        <img src="images/football-white.png" alt="football" class="hidden sm:hidden md:block lg:block lg:m-6" />
+                        <div class="card-body">
+                            <div class="product-rating-section">
+                                <i class='bx bxs-star text-orange-400 text-2xl'></i>
+                                <p>5.0</p>
+                                <img src="images/eye.png" alt="">
+                                <p>20</p>
+                                <i class='bx bx-heart text-2xl'></i>
+                                <p>200</p>
+                            </div>
+                            <h2 class="card-title font-extrabold text-xl">Asia Cup Football</h2>
+                            <p class="text-base font-medium text-[#13131899] text-left">If a dog chews shoes whose shoes
+                                does he choose?</p>
+                            <p class="text-lg font-extrabold text-[#ff4240] text-left">Price - $22.00</p>
+                            <div class="flex gap-2 items-center">
+                                <i class=' bx bx-cart  text-2xl '></i>
+                                <p class="font-medium text-[#13131875] text-left"> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

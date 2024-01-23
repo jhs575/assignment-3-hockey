@@ -1,5 +1,5 @@
 .junior{
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)),
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.50)0%, rgba(19, 19, 24, 0.50))100%,
         url("images/junior-hockey.png");
     background-position: center;
     background-repeat: no-repeat !important;
@@ -16,7 +16,7 @@
 }
 .professional{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100% ),
-        url("images/banner-3.jpg");
+        url("images/professional-hockey.png");
     background-position: center;
     background-repeat: no-repeat !important;
     background-size: cover;
@@ -35,8 +35,10 @@
     text-align: left;
     flex-grow: unset;
 }
+.card-hover{
+    transition: 400ms;
+}
 .card-hover:hover{
     scale: calc(1.05);
     cursor: pointer;
-    transition: 400ms;
 }
